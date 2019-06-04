@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--rubik);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--mine);
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  transition: all .25s ease;
+}
+
+h1, h2, h3 {
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2rem;
+  @media(--md) {
+    font-size: 3.5rem;
+  }
+}
+
+button {
+  outline: none;
+}
+
+p {
+  line-height: 1.6;
+}
+
+picture, img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: var(--sand);
+  color: white;
+}
+
+*[class$=-inner] {
+  padding: 0 1em;
+  margin: 0 auto;
+  @media(--md) {
+    max-width: 80%;
+  }
+}

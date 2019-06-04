@@ -1,0 +1,14 @@
+:root {
+  --mine: #54585A;
+  --dove: #676261;
+  --sand: #B18978;
+  --mango: #DE7C00;
+  --totem: #971D0C;
+  --nandor: #5E7461;
+  --rust: #AF5C37;
+  --laser: #C6AA76;
+  --gold: #CAA472;
+  --sun: #FFA300;
+  --silver: #CCCCCC;
+  --gradient: linear-gradient(to right, #9F3D27, #DD5934 66%);
+}

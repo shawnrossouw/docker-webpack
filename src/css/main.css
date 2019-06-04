@@ -1,0 +1,13 @@
+/* config */
+@import "config/libraries.css";
+@import "config/breakpoints.css";
+@import "config/colors.css";
+@import "config/fonts.css";
+@import "config/general.css";
+@import "config/animations.css";
+
+/* patterns */
+@import "patterns/atoms/index.css";
+@import "patterns/molecules/index.css";
+@import "patterns/organisms/index.css";
+@import "patterns/templates/index.css";
