@@ -1,13 +1,12 @@
 {
-  "name": "trythisagain",
+  "name": "shareit",
   "version": "1.0.0",
-  "description": "Wordpress targeted front-end boiler",
-  "author": "Sebastian Opperman",
+  "description": "a business worker gateway",
+  "author": "MJ Otto",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --config=config/webpack.development.js",
-    "build": "webpack --config=config/webpack.production.js",
-    "deploy": "./deploy.sh"
+    "build": "webpack --config=config/webpack.production.js"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
