@@ -1,13 +1,12 @@
 {
-  "name": "Magnetic",
+  "name": "shareit",
   "version": "1.0.0",
-  "description": "Wordpress targeted front-end boiler",
-  "author": "Sebastian Opperman",
+  "description": "a business worker gateway",
+  "author": "MJ Otto",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --config=config/webpack.development.js",
-    "build": "webpack --config=config/webpack.production.js",
-    "deploy": "./deploy.sh"
+    "build": "webpack --config=config/webpack.production.js"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -46,5 +45,14 @@
     "normalize.css": "^8.0.0",
     "parallax-js": "^3.1.0",
     "scrollmagic": "^2.0.6"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealMJDev/docker-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RealMJDev/docker-webpack/issues"
+  },
+  "homepage": "https://github.com/RealMJDev/docker-webpack#readme"
 }
